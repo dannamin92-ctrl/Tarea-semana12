@@ -1,0 +1,17 @@
+Modelo de datos simple para la plataforma:
+
+Entidad: Causa
+- id: identificador único de la causa.
+- titulo: nombre de la causa.
+- descripcion: explicación del problema o solicitud.
+- fecha: fecha de registro de la causa.
+
+Esta entidad sirve para guardar la información principal de cada petición o apoyo comunitario.
+
+Entidad: Apoyo
+- id: identificador único del apoyo.
+- causa_id: relación con la causa a la que pertenece.
+- nombre: nombre de la persona que apoya.
+- fecha: fecha en que se registró el apoyo.
+
+Esta entidad sirve para registrar los apoyos que recibe una causa y contar cuántos usuarios la respaldan.
